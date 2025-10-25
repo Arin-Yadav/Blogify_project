@@ -1,0 +1,39 @@
+# Node modules (never push this)
+node_modules/
+
+# Environment variables (protect secrets like Mongo URI, JWT secret)
+.env
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (if you add bundlers or frontend tooling later)
+dist/
+build/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Temp files and cache
+*.tmp
+*.swp
+
+# EJS backup files (if any)
+*.ejs~
+
+# Coverage reports (if you add testing later)
+coverage/
+
+# Optional: lock files (if you want to ignore them)
+# Uncomment if you prefer not to commit lock files
+# package-lock.json
+# yarn.lock
